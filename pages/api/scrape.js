@@ -85,10 +85,10 @@
 
 
 
-// import axios from 'axios';
-const axios = require('axios');
-// import cheerio from 'cheerio';
-const cheerio = require('cheerio');
+import axios from 'axios';
+// const axios = require('axios');
+import cheerio from 'cheerio';
+// const cheerio = require('cheerio');
 
 export default async function handler(req, res) {
   const url = 'https://techcrunch.com/?s=zepto'; // Replace with the specific URL if needed
