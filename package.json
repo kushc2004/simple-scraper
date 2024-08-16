@@ -1,17 +1,20 @@
 {
-  "name": "simple-scraper",
+  "name": "my-next-project",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "vercel-dev": "vercel dev",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "cheerio": "^1.0.0",
+    "axios": "^1.7.4",
+    "cheerio": "^1.0.0-rc.10",
     "chrome-aws-lambda": "^10.1.0",
-    "puppeteer-core": "^10.1.0"
+    "next": "latest",
+    "puppeteer-core": "^10.4.0",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
